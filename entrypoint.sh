@@ -9,7 +9,7 @@ echo "libstorage:
       efs:
         driver: efs
         efs:
-          tag:            rexray
+          tag:            $VOLUME_TAG
           region:         $AWS_REGION
           accessKey:      $AWS_ACCESS_KEY_ID
           secretKey:      $AWS_SECRET_ACCESS_KEY
